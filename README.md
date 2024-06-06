@@ -4,6 +4,9 @@ The CountCapture library is an Arduino library that allows you to capture a spec
 
 I've developed this library to capture 3 resets within 15 seconds to enable Wi-Fi provisioning on my ESP32 which doesn't have a Real-Time Clock (RTC) and no access to Network Time Protocol (NTP). This library simplifies the process of counting and persisting the counts across power cycles, making it convenient to trigger specific actions based on the number of counts within a specified time window.
 
+## To-Do
+- Change storage from eeprom to NVS.
+
 ## Features
 
 - Capture a specified number of counts within a given time duration
